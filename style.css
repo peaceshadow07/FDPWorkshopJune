@@ -1,0 +1,50 @@
+body {}
+
+p {
+    padding: 20px;
+}
+
+.top {
+ -webkit-background-image:linear-gradient(to top right, #2e354691, #0d537bb5), url(back5.jpg);
+    background-image:linear-gradient(to top right, #2e354691, #0d537bb5), url(back5.jpg);
+    background-size: cover;
+    background-position:center;
+    color: white;
+}
+.footer {
+    background: #86cfa9;
+    color: #262b55;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.head {
+    color: white;
+    background-color: cadetblue;
+    padding: 5px 5px;
+    margin: 20px;
+    padding: 20px;
+    margin-left: 0px;
+}
+
+.navbar {
+    background-color: #4169e1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    margin: 20px;
+    font-size: 18px;
+}
+
+.nav-item:hover {
+    color: black;
+    transform: scale(1.2);
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 10px;
+    margin:10px;
+    /* 5px rounded corners */
+}
