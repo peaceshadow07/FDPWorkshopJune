@@ -2,110 +2,140 @@
 <html lang="en">
 
 <head>
-    <title>Bootstrap 4 Website Example</title>
+    <title>PGDAV IQAC</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet">
-    
+
+
 
 </head>
 
 <body>
+    <div style="margin-left: 20px; position:sticky;top:0;background-color: white; z-index: 10;">
+        <div class="row">
+            <div class="col-md-3">
+                <h3><b>IQAC</b></h3>
+                <h5>Internal Quality Assurance Cell</h5>
+            </div>
+            <div class="col-md-9" style="display:flex;justify-content:space-around; text-align: center;">
+                <p><a href="#a1" style="color:black">The Organizer</a></p>
+                <p><a href="#a2" style="color:black">The 7 Day Programme</a></p>
+                <p><a href="#a3" style="color:black">Resource Person</a></p>
+                <p><a href="#a4" style="color:black">Attendees</a></p>
+                <p><a href="#a5" style="color:black">Organizing Committee</a></p>
+                <p><a href="#a6" style="color:black">Key Information</a></p>
+            </div>
+        </div>
+    </div>
     <div class="container">
-        <div class="top">
+        <div style="background-color: #004483;background-image: radial-gradient(blue,black); color:white;">
             <div class="row text-uppercase text-center">
                 <div class="row">
                     <div class="col-md-6 text-center">
-                        <h4><b>Teaching Learning Center<br /> Ramanujan College</b></h4>
+                        <h4 style="padding:10px;">Teaching Learning Center<br /> Ramanujan College</h4>
+   
                     </div>
                     <div class="col-md-6 text-center">
-                        <h4><b>IQAC</b></h4>
-                        <h4><b>P.G.D.A.V. College</b></h4>
+                        <h4>IQAC</h4>
+                        <h4>P.G.D.A.V. College</h4>
+                        
                     </div>
                 </div>
-                <br />
+                <div class="row text-center">
+                    <div class="col-md-6">
+                    <img src="du.png" alt="Delhi University logo" width="150px" height="150px">
+                    </div>                 
+                    <div class="col-md-6">
+                    <img src="pgdavLogo.png" alt="PGDAV college logo" width="150px" height="150px">
+                    </div>
+                </div>
                 <div class="row text-uppercase ">
                     <h4 class="col-md-12 text-center">AND</h4>
                     <div class="row text-center">
-                        <h4><b>department of commerce</b></h4>
-                        <h4><b>PGDAV College</b></h4>
-                        <h4><b>(university of delhi)</b></h4>
+                        <h4>department of commerce</h4>
+                        <h4>p.g.d.a.v. College</h4>
+                        <h4>(university of delhi)</h4>
 
                         <br />
-                        <h5>jointly organize</h5>
-                        <h6>one week faculty development programme</h6>
+                        <h6>jointly organize</h6>
+                        <h4>one week faculty development programme</h4>
                         <h5>on</h5>
-                        <h4><b>accounting standards</b></h4>
-                        <h5>24-30 july,2019</h5>
-                        <h5>(duly recognised by mhrd,govt. of india</h5>
+                        <div>
+                            <h1><b>accounting standards</b></h1>
+                        </div>
+                        <h3>24-30 july,2019</h3>
+                        <h5>(duly recognised by mhrd,govt. of india)</h5>
                         <h4>at</h4>
-                        <h4>pgdav college</h4>
+                        <h4>P.G.D.A.V. college</h4>
                     </div>
+
                 </div>
 
+                <div class="col-md-12 text-right" id="reg"><button style="border-radius: 10px;  box-shadow: 1px 1px darkgray; margin:40px; padding:5px;" onclick="myFun()"><a href="#frame" style="color:black">Register</a></button></div>
             </div>
         </div>
 
-        <div class="row navbar">
-            <div class="col-md-1 nav-item" id="home">HOME</div>
-            <div class="col-md-1 nav-item" id="reg" onclick="myFun()" ><a href="#frame" style="scroll-behavior: smooth; text-decoration: none; color: white;">Register</a></div>
-        </div>
+
 
         <div class="row">
-            <div class="row card text-center">
-                <h2 class="head text-center">IQAC,PGDAV and Department of Commerce : THE ORGANIZERS</h2>
-                <p>PGDAV College is a constituent college of University of Delhi, having been established in 1957. Recently it celebrated its Diamond Jubilee wherein the President of India, Dr. Ram Nath Kovind, graced the occasion. The institution is guided by the DAV ethos combined with rigorous pedagogy aiming to prepare the disciples to be ethical leaders in the diverse and complex world. The college has been empowering the youth of India through educating and training them, equipping them with creative and critical thinking so that they develop their faculties of discovering, exploring, learning, and growing. For achieving all of this, and then some more, the college has well developed infrastructure – both hard and soft (the intellectual prowess). Thus, the college ensures that all the stakeholders enjoy intellectually engaging and fulfilling experience in an all round manner.</p>
-                <p>Internal Quality Assurance Cell (IQAC), PGDAV College has been actively pursuing quality development, improvement, and sustenance goals right since its inception so as to deliver excellence in all its endeavors. In this background, the cell has been internalized as an integral part of the institution’s systems and processes. The cell has calendar full of forthcoming events that will act as enablers and facilitators of quality management, especially in the sphere of dissemination and creation of knowledge.
+            <div class="row card text-center" id="a1">
+                <h2 class="head text-center">IQAC, P.G.D.A.V. and Department of Commerce : THE ORGANIZERS</h2>
+                <p>P.G.D.A.V. College is a constituent college of University of Delhi, having been established in 1957. Recently it celebrated its Diamond Jubilee wherein the President of India, Dr. Ram Nath Kovind, graced the occasion. The institution is guided by the DAV ethos combined with rigorous pedagogy aiming to prepare the disciples to be ethical leaders in the diverse and complex world. The college has been empowering the youth of India through educating and training them, equipping them with creative and critical thinking so that they develop their faculties of discovering, exploring, learning, and growing. For achieving all of this, and then some more, the college has well developed infrastructure – both hard and soft (the intellectual prowess). Thus, the college ensures that all the stakeholders enjoy intellectually engaging and fulfilling experience in an all round manner.</p>
+                <p>Internal Quality Assurance Cell (IQAC), pgdavCollege has been actively pursuing quality development, improvement, and sustenance goals right since its inception so as to deliver excellence in all its endeavors. In this background, the cell has been internalized as an integral part of the institution’s systems and processes. The cell has calendar full of forthcoming events that will act as enablers and facilitators of quality management, especially in the sphere of dissemination and creation of knowledge.
                 </p>
                 <p>Department of Commerce has strength of nearly 50 teachers, about half of whom are doctorate degree holders. The faculty members comprise of youngsters at 25 to experienced ones at 64. Many of them share their knowledge at national, international level institutes, participate in public debates, and advise various bodies on public policy issues and so on. They are also guiding doctoral level researchers of Delhi and other Universities. In brief, they are well qualified and equipped to host this faculty development program.</p>
             </div>
 
-            <div class="row card text-center">
+            <div class="row card text-center" id="a2">
                 <h2 class="head text-center">THE PROGRAMME: 7 DAY FDP</h2>
                 <p>Disclosure and transparency are the backbone of any business organisation. To provide the true and fair view of the organisation, accounting policies play the dominant role as many stakeholders make their decisions on the basis of accounting information disseminated by the organisation. Every Student of Commerce and Accounting should be aware of the broad accounting policies and regulations passed by professional body. The most important aspect of financial fraud is lacuna in the disclosure of accounting information. With rising concern disclosure requirements, every corporate is required to follow the accounting standards issued by the ICAI. Moreover, the present syllabi of B.Com (H) and B.com also comprise the few accounting standards and International Financial Reporting Standards. Therefore, to provide the basic platform to learn the professional aspects of disclosure of accounting information, the activity based one week FDP is initiated by our college on Accounting Standards. The programme is focussed on the practical aspects of accounting concerning disclosure requirements.</p>
             </div>
 
-            <div class="row card text-center">
+            <div class="row card text-center" id="a3">
                 <h2 class="head text-center">WHO WILL BE THE RESOURCE PERSONS</h2>
                 <p>The speakers have a diverse background in policy making, members of think thanks, primarily from the Institute of Chartered Accountants of India. You will certainly be having immense experience and academic enlightenment after attending this program. Once you register for the FDP, we will send you a complete list of the resource persons.
                 </p>
             </div>
 
-            <div class="row card text-center">
+            <div class="row card text-center" id="a4">
                 <h2 class="head text-center">WHO SHOULD ATTEND</h2>
                 <p>The participation is open to the faculty members, academicians, and research scholars from all fields. In addition, practitioners working in the area of Accounting and interested in research as also those professionals and executives from the corporate world who are engaged in financial decision making would gain by attending the programme immensely. The attendance at the FDP will contribute in large amount towards a participant’s promotion and career enhancement, as it is duly endorsed by TLC, Ramanujan College, set up by MHRD, Govt of India.
                 </p>
             </div>
 
-            <div class="row text-center card">
+            <div class="row card text-center" id="a5">
                 <h2 class="head text-center">ORGANIZING COMMITTEE</h2>
                 <div class="col-md-6">
                     <h3>Patron</h3>
-                    <p>Dr. Mukesh Kumar Aggarwal, Principal</p>
+                    <h6>Dr. Mukesh Kumar Aggarwal, Princial</h6>
                 </div>
                 <div class="col-md-6">
                     <h3>Convener</h3>
-                    <p>Mr. K. K. Srivastava</p>
+                    <h6>Mr. K. K. Srivastava</h6>
                 </div>
+                <div class="row">
+                    <h3 class="col-md-12">Co-conveners</h3>
+                    <h6 class="col-md-3">Dr. Shuchi h6ahuja</h6>
+                    <h6 class="col-md-3">Dr. Gurcharan Sachdeva</h6>
+                    <h6 class="col-md-3">Dr. Atul Kumar</h6>
+                    <h6 class="col-md-3">Dr. Rakesh Kumarr</h6>
 
-                <h3 class="col-md-12">Co-conveners</h3>
-                <p class="col-md-3">Dr. Shuchi Pahuja</p>
-                <p class="col-md-3">Dr. Gurcharan Sachdeva</p>
-                <p class="col-md-3">Dr. Atul Kumar</p>
-                <p class="col-md-3">Dr. Rakesh Kumarr</p>
-
-                <h3>Members</h3>
-                <p class="col-md-2 text-center">Arpita Agarwal</p>
-                <p class="col-md-2 text-center">Geeta Kalucha</p>
-                <p class="col-md-2 text-center">Sakshi Verma</p>
-                <p class="col-md-2 text-center">Chander Pal Singh</p>
-                <p class="col-md-2 text-center">Varun Bhushan</p>
-                <p class="col-md-2 text-center">Ms. Sonia</p>
+                    <h3>Members</h3>
+                    <div class="row" style="display: flex; justify-content: space-around">
+                        <h6 class="text-center">Arpita Aggarwal</h6>
+                        <h6 class="text-center">Geeta Kalucha</h6>
+                        <h6 class="text-center">Sakshi Verma</h6>
+                        <h6 class="text-center">Chander Pal Singh</h6>
+                        <h6 class="text-center">Varun Bhushan</h6>
+                        <h6 class="text-center">Ms. Sonia</h6>
+                        <h6 class="text-center">Ms. Garima Gaur</h6>
+                    </div>
+                </div>
             </div>
 
-            <div class="row card ">
+            <div class="row card" id="a6">
                 <h2 class="head text-center">KEY INFORMATION</h2>
                 <ul>
                     <li>
@@ -116,7 +146,7 @@
                     </li>
                     <li>
                         <b>Payment details</b>: Payment has to be made through the NEFT/RTGS/Intra bank Transfer<br />
-                        <p>Once you have paid the fee, please mail us the details of payment and proof of payment at pgdav.iqac@gmail.com so that you are registered formally, and we send you an invitation to attend the FDP. Only then you would be actually registered. Preferably, provide brief details (Name, Institution, etc.) along with payment details, proof etc. so as to enable us to track your application and payment and correlate them. <b>Once paid, the fee will not be refunded for any reason</b>. In your own interest, please follow the advice scrupulously. </p>
+                        <p>Once you have paid the fee, please mail us the details of payment and proof of payment at pgdaviqac@gmail.com so that you are registered formally, and we send you an invitation to attend the FDP. Only then you would be actually registered. Preferably, provide brief details (Name, Institution, etc.) along with payment details, proof etc. so as to enable us to track your application and payment and correlate them. <b>Once paid, the fee will not be refunded for any reason</b>. In your own interest, please follow the advice scrupulously. </p>
                     </li>
                     <li>
                         <b>Attendance Requirement</b>: You would deem to have successfully completed the program ONLY AND ONLY IF YOU ATTEND A MINIMUM of 90% sessions held. Any shortfall will make you ineligible to receive the certificate of participation. Signature on the attendance sheet and feedback form for each session will be the conclusive proof of your having attended the sessions. This attendance condition is NOT VIOLABLE for any reason whatsoever.
@@ -134,7 +164,7 @@
                             <div class="col-md-4">
                                 <h6><b>K. K. Srivastava</b></h6>
                                 <h6>9810316903/9810316911</h6>
-                                <h6>pgdav.iqac@gmail.com</h6>
+                                <h6>pgdaviqac@gmail.com</h6>
                             </div>
 
                             <div class="col-md-4">
@@ -155,26 +185,24 @@
             </div>
             <div class="card row" id="frame" hidden>
                 <h2 style="padding:10px;"><b>REGISTER</b></h2>
-            <iframe 
-                    class="container" src="https://docs.google.com/forms/d/e/1FAIpQLScUdGMTgZ311X_hN-AxeZv07yxta7AFN8es4c0OcbVr8UEYkA/viewform?usp=sf_link" name="form" height="1000px"></iframe>
+                <iframe class="container" src="https://docs.google.com/forms/d/e/1FAIpQLScUdGMTgZ311X_hN-AxeZv07yxta7AFN8es4c0OcbVr8UEYkA/viewform?usp=sf_link" name="form" height="1000px"></iframe>
             </div>
         </div>
     </div>
-    <br/>
+    <br />
     <div class="container">
-    <div class="pl-4 footer text-center">
-        &copy; 2019 IQAC, P.G.D.A.V. College
-        <div style="text-align: end text-center">Developed by <a href="https://www.linkedin.com/in/kartikeya07/" >Kartikeya</a></div>
-    </div>
+        <div class="pl-4 footer text-center">
+            &copy; 2019 IQAC, P.G.D.A.V. College
+            <div style="text-align: end text-center">Developed by <a href="https://www.linkedin.com/in/kartikeya07/">Kartikeya </a>&amp; Rajbir</div>
+        </div>
 
     </div>
     <script type="text/javascript">
         var f = document.getElementById('frame');
+
         function myFun() {
-            f.hidden=false;
+            f.hidden = false;
         }
     </script>
 
-</body>
-
-</html>
+</body></html>
