@@ -1,21 +1,21 @@
-body {}
+body {
+ box-sizing: border-box;   
+}
 
 p {
     padding: 20px;
 }
 
-.top {
- -webkit-background-image:linear-gradient(to top right, #2e354691, #0d537bb5), url(back5.jpg);
-    background-image:linear-gradient(to top right, #2e354691, #0d537bb5), url(back5.jpg);
-    background-size: cover;
-    background-position:center;
-    color: white;
+.topic{
+    margin: 20px 20px;
+    background-color: #004483;
 }
-.footer {
-    background: #86cfa9;
-    color: #262b55;
-    font-weight: 500;
-    font-size: 15px;
+
+.top{
+    background: radial-gradient(#004483,black);
+    color:white;
+    text-shadow: 1px 1px black;
+    width:100%;
 }
 
 .head {
@@ -23,17 +23,16 @@ p {
     background-color: cadetblue;
     padding: 5px 5px;
     margin: 20px;
+/*
     padding: 20px;
     margin-left: 0px;
+*/
 }
 
-.navbar {
-    background-color: #4169e1;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: white;
-    margin: 20px;
-    font-size: 18px;
+.navbar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .nav-item:hover {
@@ -45,6 +44,12 @@ p {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     border-radius: 10px;
-    margin:10px;
+    margin: 10px;
+    width:100%;
     /* 5px rounded corners */
+}
+
+.curved {
+    border-radius: 5px;
+    background-color: #004483;
 }
